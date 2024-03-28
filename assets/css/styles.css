@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding: 20px;
+    display: flex;
+    gap: 1.5rem;
+    flex-flow: row-reverse wrap-reverse;
+  }
+
+  aside figure {
+    text-align: center;
+  }
+
+  aside figcaption {
+    margin-top: 12px;
+  }
+
+  aside img {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5cm;
+    height: 6cm;
+    width: 6cm;
+  }
+
+  footer {
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  nav {
+    background-color: #2ec600;
+    padding: 5px;
+  
+    position: sticky;
+    top: 0;
+  }
+
+  nav ul {
+    padding-inline: 4rem;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav li {
+    list-style-type: none;
+  }
+
+  nav a {
+    font-size: 18px;
+  
+    font-weight: 400;
+    text-decoration: none;
+  
+    color: black;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  main p {
+    text-align: justify;
+  }
+
+
+  #content {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 9px;
+    margin: 9px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 9px;
+}  
+
+.jumbotron {
+    text-align: center;
+    padding: 40px;
+    background-color: #7ac600;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    justify-content: center;
+  }
+}
